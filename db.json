@@ -1,0 +1,79 @@
+{
+"menu": [
+    {
+        "module_code": "USERMENU",
+        "module_label": "User Menu",
+        "module_path": "/User",
+        "module_path_type": null,
+        "module_formula": null,
+        "module_parent_code": null,
+        "submenus": [
+            {
+                "module_code": "USERNOTIF",
+                "module_label": "Notification",
+                "module_path": "/Notification",
+                "module_path_type": "I",
+                "module_formula": "formula 4",
+                "module_parent_code": "USERMENU",
+                "submenus": []
+            },
+            {
+                "module_code": "USERPROFILE",
+                "module_label": "User Profile",
+                "module_path": "/Profile",
+                "module_path_type": "I",
+                "module_formula": "formula 5",
+                "module_parent_code": "USERMENU",
+                "submenus": []
+            }
+        ]
+    },
+    {
+        "module_code": "SALESMENU",
+        "module_label": "Sales",
+        "module_path": "/Sales",
+        "module_path_type": null,
+        "module_formula": null,
+        "module_parent_code": null,
+        "submenus": [
+            {
+                "module_code": "SALESPHOTO",
+                "module_label": "Sales Photo",
+                "module_path": "/SalesPhoto",
+                "module_path_type": "I",
+                "module_formula": "formula 3",
+                "module_parent_code": "SALESMENU",
+                "submenus": []
+            },
+            {
+                "module_code": "ORDERMENU",
+                "module_label": "Order",
+                "module_path": "/Order",
+                "module_path_type": null,
+                "module_formula": null,
+                "module_parent_code": "SALESMENU",
+                "submenus": [
+                    {
+                        "module_code": "DIRECTORDER",
+                        "module_label": "Direct Order",
+                        "module_path": "/DirectOrder",
+                        "module_path_type": "I",
+                        "module_formula": "formula 1",
+                        "module_parent_code": "ORDERMENU",
+                        "submenus": []
+                    },
+                    {
+                        "module_code": "INDIRECTORDER",
+                        "module_label": "Indirect Order",
+                        "module_path": "/IndirectOrder",
+                        "module_path_type": "I",
+                        "module_formula": "formula 2",
+                        "module_parent_code": "ORDERMENU",
+                        "submenus": []
+                    }
+                ]
+            }
+        ]
+    }
+]
+}
